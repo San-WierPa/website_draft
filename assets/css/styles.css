@@ -18,7 +18,7 @@ Variables
   --clr-primary-3: hsl(73, 72%, 37%);
   --clr-primary-4: hsl(72, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(72, 78%, 60%);
+  --clr-primary-5: hsl(72, 78%, 40%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(73, 89%, 70%);
   --clr-primary-7: hsl(73, 90%, 76%);
@@ -1066,7 +1066,7 @@ Single Page
 }
 
 /*
-=============== 
+===============
 Products Page
 ===============
 */
