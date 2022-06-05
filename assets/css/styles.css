@@ -296,8 +296,17 @@ Navbar
   box-shadow: var(--light-shadow);
 }
 
+.nav-coffee {
+  margin-left: 1.75rem;
+  margin-top: 1.325rem;
+  margin-bottom: 1.25rem;
+  color: hsl(211, 45%, 21%);
+  font-size: 1.25rem;
+  font-family: var(--ff-primary)
+}
+
 /*
-=============== 
+===============
 Sidebar
 ===============
 */
@@ -560,10 +569,10 @@ Services
   }
 }
 
-/* talk about small screen 
+/* talk about small screen
 without grid different setup */
 /*
-=============== 
+===============
 Projects
 ===============
 */
@@ -609,6 +618,14 @@ Projects
   height: 15rem;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+#img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
 }
 
 .project:hover .project-img {
@@ -817,12 +834,20 @@ Skills
   border-radius: var(--radius);
 }
 
+.value-60 {
+  width: 60%;
+}
+
 .value-70 {
   width: 70%;
 }
 
 .value-80 {
   width: 80%;
+}
+
+.value-90 {
+  width: 90%;
 }
 
 .skill-text {
@@ -1011,7 +1036,7 @@ Blog
 }
 
 /*
-=============== 
+===============
 Footer
 ===============
 */
@@ -1041,7 +1066,7 @@ Footer
 }
 
 /*
-=============== 
+===============
 Single Page
 ===============
 */
