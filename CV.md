@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sebastian Paripsa - Home</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+  <!-- header -->
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>i'm sebastian</h1>
+        <h4>Computational physicist | Founder | M.Sc. physics</h4>
+        <a href="contact.html" class="btn hero-btn">hire me</a>
+        <!-- social icons -->
+        <ul class="social-icons hero-icons">
+          <!-- single item -->
+          <li>
+            <a href="https://www.linkedin.com/in/sebastian-paripsa/" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://github.com/San-WierPa" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+        </ul>
+      </article>
+      <article class="hero-img">
+        <img src="assets/images/me_zoom.JPG" class="hero-photo" alt="sebastian paripsa" />
+      </article>
+    </div>
+  </header>
+  <!-- end of header -->
+  <!-- about -->
+  <section class="section about">
+    <div class="section-center about-center">
+      <!-- about img -->
+      <article class="about-img">
+        <img src="assets/images/me_hallway.JPG" class="hero-photo" alt="about img" />
+      </article>
+      <!-- about info -->
+      <article class="about-info">
+        <!-- section title -->
+        <div class="section-title about-title">
+          <h2>about</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p>
+          Hello, I am Sebastian Paripsa and I have a M.Sc. in theoretical physics.
+          I live and work currently in Wuppertal - Germany with my wife and our kids.
+          I spend most of my day, solving issues and finishing milestones that I set myself as
+          a phd-student, project-manager and founder.
+          Generally, I enjoy coding and the challenge of learning something new everyday.
+        </p>
+        <p>
+          I'm specialized in computer-aided simulations in quantum mechanics and have a high level
+          of understanding and interest in theoretical basics and experimental implementations.
+        </p>
+        <a href="about.html" class="btn">about me</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of about -->
+  <!-- services -->
+  <section class="section bg-grey">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>services</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="services-center section-center">
+      <!-- single service -->
+      <article class="service">
+        <i class="fas fa-atom service-icon"></i>
+        <h4>data science</h4>
+        <div class="underline"></div>
+        <p>
+          Profit from my first class education! Currently working on my phd in physics,
+          I have a solid background of dealing with numerical simulations in theoretical
+          particle-physics of over 5 years.<br>
+          I have a high level of understanding and interest in theoretical
+          principles and experimental implementation. </p>
+      </article>
+      <!-- end of single service -->
+      <!-- single service -->
+      <article class="service">
+        <i class="fas fa-laptop-code service-icon"></i>
+        <h4>Full stack</h4>
+        <div class="underline"></div>
+        <p>
+          Currently working on building a Backend with <a href="https://fastapi.tiangolo.com/">FastAPI</a>,
+          backed up by database management via <a href="https://mariadb.com/">MySQL/MariaDB</a> and
+          a webserver including a modern looking webpage with <a href="https://www.djangoproject.com/">Django</a>.<br>
+          I'm able to take your project to the next level!
+        </p>
+      </article>
+      <!-- end of single service -->
+      <!-- single service -->
+      <article class="service">
+        <i class="fas fa-chart-line service-icon"></i>
+        <h4>Entrepeneurship</h4>
+        <div class="underline"></div>
+        <p>
+          Equipped with an extensive mind and skillset,
+          I'm experienced in working independently and effectively on projects,
+          as well as being able to contribute productively in a team.<br>
+          Together with two colleagues I have founded <a href="https://digon.io/">Digon.IO</a>.
+          Hence I'm able to bring in new ideas and I'm proficient in evolving, even if it seems risky.
+        </p>
+      </article>
+      <!-- end of single service -->
+    </div>
+  </section>
+  <!-- end of services -->
+  <!-- projects -->
+  <section class="section projects">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>latest works</h2>
+      <div class="underline"></div>
+      <p class="projects-text">
+        Have a look at a few projects of mine and decide if you want me to be an important part
+        of your next big project!
+      </p>
+    </div>
+    <!--end of section title -->
+    <div class="section-center projects-center">
+      <!-- single project -->
+      <a href="projects.html" class="project-1">
+        <article class="project">
+          <img src="assets/images/digon.PNG" alt="single project" class="project-img" />
+          <div class="project-info">
+            <h4>datascience | Software development | Consulting</h4>
+            <p>Digon.IO</p>
+          </div>
+        </article>
+      </a>
+      <!-- end of single project -->
+      <!-- single project -->
+      <a href="projects.html" class="project-2">
+        <article class="project">
+          <img src="assets/images/msc.PNG" id="img-center" alt="single project" class="project-img" />
+          <div class="project-info">
+            <h4>Lattice study of the chiral condensate with staggered and overlap fermions in the multi-flavoured
+              Schwinger model</h4>
+            <p>M.Sc.physics @ University of Wuppertal</p>
+          </div>
+        </article>
+      </a>
+      <!-- end of single project -->
+      <!-- single project -->
+      <a href="projects.html" class="project-3">
+        <article class="project">
+          <img src="assets/images/fast_api_ppt.PNG" alt="single project" class="project-img">
+          <div class="project-info">
+            <h4>full stack: FastAPI + Django</h4>
+            <p>Phd-student @ University of Wuppertal</p>
+          </div>
+        </article>
+      </a>
+      <!-- end of single project -->
+      <!-- single project -->
+      <a href="projects.html" class="project-4">
+        <article class="project">
+          <img src="assets/images/project_4.JPG" alt="single project" class="project-img" />
+          <div class="project-info">
+            <h4>your next project?</h4>
+          </div>
+        </article>
+      </a>
+      <!-- end of single project -->
+    </div>
+  </section>
+  <!-- end of projects -->
+  <!-- skills -->
+  <section class="section skills">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>skills</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center skills-center">
+      <article>
+        <h3>data science</h3>
+        <!-- single skill -->
+        <div class="skill">
+          <p>Physics/Mathematics</p>
+          <div class="skill-container">
+            <div class="skill-value value-90"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>Python</p>
+          <div class="skill-container">
+            <div class="skill-value value-80"></div>
+            </p>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>Numerical modelling</p>
+          <div class="skill-container">
+            <div class="skill-value value-70"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>Linux</p>
+          <div class="skill-container">
+            <div class="skill-value value-60"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+
+</article>
+      <article>
+        <h3>Full stack</h3>
+        <!-- single skill -->
+        <div class="skill">
+          <p>FastAPI</p>
+          <div class="skill-container">
+            <div class="skill-value value-70"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>Django</p>
+          <div class="skill-container">
+            <div class="skill-value value-70"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>MySQL</p>
+          <div class="skill-container">
+            <div class="skill-value value-60"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+        <!-- single skill -->
+        <div class="skill">
+          <p>HTML/CSS/JS</p>
+          <div class="skill-container">
+            <div class="skill-value value-80"></div>
+          </div>
+        </div>
+        <!--end of  single skill -->
+      </article>
+    </div>
+  </section>
+  <!-- end of skills -->
+  <!-- timeline -->
+  <section class="section timeline">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>timeline</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center timeline-center">
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2022</h4>
+        <p>
+          Founding of a datascience and software development company
+          <a href="https://digon.io/">Digon.IO</a> with two colleagues in Wuppertal - Germany.
+        </p>
+        <span class="number">
+          1
+        </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2021</h4>
+        <p>
+          Start of phd studies with focus on development and solid state physics.<br><br>
+          Completion of M.Sc. in theoretical particle physics with focus on numerical simulations
+          in Python. Computer-aided application of mathematical algorithms and analysis of the
+          Schwinger model as part of a treatment of lattice quantum chromodynamics.
+        </p>
+        <span class="number">
+          2
+        </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2020</h4>
+        <p>
+          Agile software development: analysis and design of a new application for a POS system.
+          Implementation on iPad and finalization and optimization of an emoticon app for iPhone.
+        </p>
+        <span class="number">
+          3
+        </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2018</h4>
+        <p>
+          Completion of B.Sc. in physics with focus on measurement of permittivity
+          with high-frequency signals. Design, development and modification of experiments
+          with a team of researchers. Computer-aided simulation and evaluation
+        </p>
+        <span class="number">
+          4
+        </span>
+      </article>
+      <!-- end of  single timeline item -->
+    </div>
+  </section>
+  <!--end of  timeline -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <!-- social icons -->
+    <ul class="social-icons">
+      <!-- single item -->
+      <li>
+        <a href="https://www.linkedin.com/in/sebastian-paripsa/" class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <!-- end of single item -->
+      <!-- single item -->
+      <li>
+        <a href="https://github.com/San-WierPa" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <!-- end of single item -->
+    </ul>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
